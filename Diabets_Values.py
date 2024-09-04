@@ -4,6 +4,7 @@ import seaborn as sns
 
 X,y  = load_diabetes(as_frame=True,return_X_y=True)
 
+# 
 X["diabetes"] = y
 
 
